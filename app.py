@@ -176,7 +176,7 @@ def main():
                 with st.spinner("Processing your complaint..."):
                     try:
                         # Process the complaint
-                        lang, translated_text = detect_and_translate(text)
+                        lang, translated_text = detect_and_translate(user_input)[0]
                         category = classify_complaint(translated_text)
                         department = get_department(category)
                         
