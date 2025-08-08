@@ -1,4 +1,4 @@
 streamlit
 langdetect
 requests
-flask
+
